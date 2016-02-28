@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+exhibit1:
+  name: The Wonders of the World
+  exhibit_date: March 10 - June 1
+  about_info: An exhibition about the wonders of the World
+  img_url: https:www.google.com/image/wonders_of_the_world
+  museum: moma
+
+exhibit2:
+  name: The Wonders of the World ... A Second Time
+  exhibit_date: Feb 10 - April 1
+  about_info: An exhibition about the wonders of the World one more time
+  img_url: https:www.google.com/image/wonders_of_the_world_a_second_time
+  museum: moad

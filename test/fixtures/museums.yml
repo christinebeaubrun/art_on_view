@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+moma:
+  name: Museum of Modern Art
+  location: "New York City"
+  city: nyc
+
+moad:
+  name: The Museum of African Disapora
+  location: "San Francisco"
+  city: sf
