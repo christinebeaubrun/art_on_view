@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20160226035010) do
     t.string   "name"
     t.string   "exhibit_date"
     t.string   "img_url"
-    t.string   "about_info"
+    t.string   "about_url"
     t.integer  "museum_id"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false

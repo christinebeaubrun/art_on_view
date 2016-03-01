@@ -4,7 +4,7 @@ class Exhibition < ActiveRecord::Base
 	
 	validates 	:name, presence: true
 	validates 	:exhibit_date, presence: true
-	validates 	:about_info, presence: true
+	validates 	:about_url, presence: true
 	validates 	:img_url, presence: true
 
 end

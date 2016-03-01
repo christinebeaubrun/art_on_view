@@ -3,39 +3,69 @@
 		city_name: "New York City",
 		museums: [
 			{
-				name: "Whitney Museum of American Art",
-				location: "99 Gansevoort Street, New York, NY 10014",
+				name: "Museum of Modern Art",
+				location: "11 West 53rd Street 10019",
 				exhibitions: [
 					{
-						url:"http://whitney.org/Exhibitions/LauraPoitras",
-						css_title:"#mmi_108177 .title h1",
-						css_date:"#mmi_108177 .title h2",
-						css_about: "#mmi_93969 .text-module-text",
-						css_img_url:
+						url:"http://www.moma.org/calendar/exhibitions/1542?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
 					},{
-						url:"http://whitney.org/Exhibitions/TheWestreichWagnerCollection",
-						css_title:"#mmi_108177 .title h1",
-						css_date:"#mmi_108177 .title h2",
-						css_about: "#mmi_93969 .text-module-text",
-						css_img_url:
+						url:"http://www.moma.org/calendar/exhibitions/1611?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
 					},{
-						url:"http://whitney.org/Exhibitions/TheWhitneysCollection",
-						css_title:"#mmi_108177 .title h1",
-						css_date:"#mmi_108177 .title h2",
-						css_about: "#mmi_93969 .text-module-text",
-						css_img_url:
+						url:"http://www.moma.org/calendar/exhibitions/1549?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
 					},{
-						url:"http://whitney.org/Exhibitions/Flatlands",
-						css_title:"#mmi_108177 .title h1",
-						css_date:"#mmi_108177 .title h2",
-						css_about: "#mmi_93969 .text-module-text",
-						css_img_url:
+						url:"http://www.moma.org/calendar/exhibitions/1529?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
 					},{
-						url:"http://whitney.org/Exhibitions/NjidekaAkunyiliCrosby",
-						css_title:"#mmi_108177 .title h1",
-						css_date:"#mmi_108177 .title h2",
-						css_about: "#mmi_93969 .text-module-text",
-						css_img_url:
+						url:"http://www.moma.org/calendar/exhibitions/1560?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
+					},{
+						url:"http://www.moma.org/calendar/exhibitions/1539?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
+					},{
+						url:"http://www.moma.org/calendar/exhibitions/1551?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
+					},{
+						url:"http://www.moma.org/calendar/exhibitions/1504?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
+					},{
+						url:"http://www.moma.org/calendar/exhibitions/1554?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
+					},{
+						url:"http://www.moma.org/calendar/exhibitions/1553?locale=en",
+						css_title:".page-header__title",
+						css_date:".page-header__subheading--narrow",
+						css_img_prefix: "http://www.moma.org",
+						css_img_url: ".happening-hero__image-container__clip img"
 					}
 				]
 			}
@@ -52,25 +82,21 @@
 						url:"http://www.moadsf.org/exhibition/who-among-us-the-art-of-kenyatta-a-c-hinkle/",
 						css_title:".breadcrumb span[property='v:title']",
 						css_date:".exhibit-date",
-						css_about: ".exhibition-content p:nth-of-type(2)",
 						css_img_url:".hero-img-with-caption img"
 					},{
 						url:"http://www.moadsf.org/exhibition/alison-saar-bearing/",
 						css_title:".breadcrumb span[property='v:title']",
 						css_date:".exhibit-date",
-						css_about: ".exhibition-content p:nth-of-type(2)",
 						css_img_url:".hero-img-with-caption img"
 					},{
 						url:"http://www.moadsf.org/exhibition/ghostsships/",
 						css_title:".breadcrumb span[property='v:title']",
 						css_date:".exhibit-date",
-						css_about: ".exhibition-content p:nth-of-type(2)",
 						css_img_url:".hero-img-with-caption img"
 					},{
 						url:"http://www.moadsf.org/exhibition/finding-the-i-in-diaspora/",
 						css_title:".breadcrumb span[property='v:title']",
 						css_date:".exhibit-date",
-						css_about: ".exhibition-content p:nth-of-type(2)",
 						css_img_url:".hero-img-with-caption img"
 					}
 				]

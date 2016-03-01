@@ -4,7 +4,7 @@ class CreateExhibitions < ActiveRecord::Migration
       t.string 			:name
       t.string 			:exhibit_date
       t.string 			:img_url
-      t.string 			:about_info
+      t.string 			:about_url
       t.belongs_to	:museum, index: true
 
       t.timestamps null: false
