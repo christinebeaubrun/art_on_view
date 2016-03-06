@@ -7,7 +7,6 @@ Rails.application.load_tasks
 require 'nokogiri'
 require 'open-uri'
 
-
 namespace :db do
 	task :seed do
 		file = File.open( "city_museums_exhibitions_url.txt", "r" ) { | file | file.read }

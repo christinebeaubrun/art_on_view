@@ -1,2 +1,7 @@
-<h1>Cities#home</h1>
-<p>Find me in app/views/cities/home.html.erb</p>
+<% @cities.each do | city | %>
+	<h4><%= city.name %></h4>
+		exhibitions = city.exhibitions
+		<% exhibitions.each do | exhibit | %>
+			<p><%= exhibit.name %></p>
+		<% end %>
+<% end %>
