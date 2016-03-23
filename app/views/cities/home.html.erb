@@ -1,7 +1,9 @@
-<% @cities.each do | city | %>
-	<h4><%= city.name %></h4>
-		exhibitions = city.exhibitions
-		<% exhibitions.each do | exhibit | %>
-			<p><%= exhibit.name %></p>
-		<% end %>
+<% @exhibitionsCtn.each do | exhibit | %>
+	<h2 class="exhibit-name"><%= exhibit.name %></h2>
+	<li class="grid__item">
+		<a class="grid__link" href="#">
+			<img class="grid__img" src="<%= exhibit.img_url %>" alt="Some image"/>
+			<h3 class="grid__item-title"><%= exhibit.name %></h3>
+		</a>
+	</li>
 <% end %>
